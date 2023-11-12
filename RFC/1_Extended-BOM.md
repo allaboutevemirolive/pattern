@@ -1,7 +1,3 @@
-# pattern
-Research a novel algorithm for string searching.
-
-
 Variants of the Backward-Oracle-Matching Algorithm
 
 ```

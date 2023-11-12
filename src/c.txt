@@ -1,0 +1,29 @@
+// pub mod ebom;
+// pub mod read;
+// pub mod test;
+
+// use crate::ebom::print_match_positions;
+// use crate::{ebom::extended_bom, read::read_file};
+
+// fn main() {
+//     // let file_path = "/home/nemesis/Documents/Github/Focus/algo/pattern/data/brown.txt";
+//     // let text = match read_file(file_path) {
+//     //     Ok(content) => content,
+//     //     Err(err) => {
+//     //         eprintln!("Error reading file: {}", err);
+//     //         return;
+//     //     }
+//     // };
+
+//     let text = "abca  bcabc";
+//     let pattern = "a";
+
+//     let text_chars: Vec<char> = text.chars().collect();
+//     let pattern_chars: Vec<char> = pattern.chars().collect();
+
+//     let match_positions = extended_bom(&pattern_chars, &text_chars);
+
+//     // println!("Text: {}", text);
+//     println!("Pattern: {}", pattern);
+//     print_match_positions(&match_positions);
+// }
